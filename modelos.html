@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Deportivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: white;
+        }
+        .header {
+            background: linear-gradient(to right, #16181a, #484d52);
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 1.2em;
+        }
+        .menu a:hover {
+            background: #555;
+            border-radius: 5px;
+            transform: scale(1.1);
+        }
+        .models {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            background: #111;
+        }
+        .models h2 {
+            width: 100%;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .model {
+            width: 25%;
+            margin: 15px;
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .model:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255,255,255,0.4);
+        }
+        .model img {
+            width: 100%;
+            max-height: 220px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+            box-shadow: 0 -4px 10px rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="logo del instituto" width="100px"height="100px">
+        <h1>AUTOS DEPORTIVOS</h1>
+        <p>Diseño y velocidad en su máxima expresión</p>
+    </div>
+    
+    <div class="menu">
+        <a href="index.html.html">Inicio</a>
+        <a href="#modelos">Modelos</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="formulario3.html">formulario</a>
+    </div>
+    
+    <div id="modelos" class="models">
+        <h2>Modelos de Autos</h2>
+        <a href="ferrari.html"><div class="model"><img src="modern1.jpg" alt="Modelo Moderno 1"><h3>ferrari</a></h3></div>
+        <a href="Koenigsegg.html"><div class="model"><img src="modern2.jpg" alt="Modelo Moderno 2"><h3>Koenigsegg </a></h3></div>
+            <a href="pagani.html"> <div class="model"><img src="modern3.jpg" alt="Modelo Moderno 3"><h3>Pagani</a></h3></div>
+                <a href="bugatti turbillon.html"><div class="model"><img src="modern4.jpg" alt="Modelo Moderno 4"><h3>bugatti turbillon</a></h3></div>
+                    <a href="BMW M4.html">  <div class="model"><img src="modern5.jpg" alt="Modelo Moderno 5"><h3>BMW M4</a></h3></div>
+                        <a href="McLaren 750S.html"> <div class="model"><img src="modern6.jpg" alt="Modelo Moderno 6"><h3>McLaren 750S</a></h3></div>
+                            <a href="Lamborghini Aventador SVJ.html"> <div class="model"><img src="modern7.jpg" alt="Modelo Moderno 7"><h3>Lamborghini Aventador SVJ</a></h3></div>
+                                <a href="Porsche 911 GT3 RS.html"> <div class="model"><img src="modern8.jpg" alt="Modelo Moderno 8"><h3>Porsche 911 GT3 RS</a></h3></div>
+                                    <a href="Toyota Supra.html"> <div class="model"><img src="classic1.jpg" alt="Modelo Clásico 1"><h3>Toyota Supra</a></h3></div>
+                                        <a href="Nissan GT-R R34.html"><div class="model"><img src="classic2.jpg" alt="Modelo Clásico 2"><h3>Nissan GT-R R34</a></h3></div>
+                                            <a href="Honda S2000.html"><div class="model"><img src="classic3.jpg" alt="Modelo Clásico 3"><h3>Honda S2000</a></h3></div>
+                                                <a href="Mitsubishi Lancer Evolution.html"><div class="model"><img src="classic4.jpg" alt="Modelo Clásico 4"><h3>Mitsubishi Lancer Evolution</a></h3></div>
+                                                    <a href="Mitsubishi Eclipse.html"><div class="model"><img src="classic5.jpg" alt="Modelo Clásico 5"><h3>Mitsubishi Eclipse</a></h3></div>
+                                                        <a href="Honda Civic 2000.html"><div class="model"><img src="classic6.jpg" alt="Modelo Clásico 6"><h3>Honda Civic 2000</a></h3></div>
+                                                            <a href="Dodge Challenger.html"> <div class="model"><img src="classic7.jpg" alt="Modelo Clásico 7"><h3>Dodge Challenger</a></h3></div>
+    </div>
+    
+    <div class="footer">
+        <p>Contacto: autos@deportivos.com | Tel: +123 456 7890</p>
+    </div>
+</body>
+</html>
